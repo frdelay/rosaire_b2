@@ -1,0 +1,53 @@
+Dans medit.dart
+
+import 'package:webview_flutter/webview_flutter.dart';
+
+
+
+/*
+            Container(
+              child: Text("Audio",
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
+            ),
+
+            SizedBox(height: 20.0),
+
+            Container(
+              //child: Text(audioUrl, style: TextStyle(fontSize: 14)),
+              child:Row(children: [
+                IconButton(
+              icon: const Icon(Icons.play_arrow),
+              tooltip: 'lancer l audio',
+              onPressed: () {
+                print(audioUrl);
+                playeraudio.play();
+              },
+            ),
+            IconButton(
+              icon: const Icon(Icons.pause),
+              tooltip: 'pause',
+              onPressed: () {
+                print("pause");
+                playeraudio.pause();
+              },
+            )
+           
+              ],)
+            ),
+           SizedBox(height: 20.0),
+
+            Container(
+              child: Text("Video",
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
+            ),
+
+            SizedBox(height: 20.0),
+
+            Container(
+              //child: Text(videoUrl, style: TextStyle(fontSize: 14)),
+              child : WebView( initialUrl: videoUrl, javascriptMode: JavascriptMode.unrestricted,
+),
+              height:200
+            ),
+
+*/
